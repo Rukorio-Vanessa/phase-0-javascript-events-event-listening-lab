@@ -1,5 +1,7 @@
-function addingEventListener() {
-    document.getElementById('button').addEventListener('copy',function(){
-        alert();
-    });
+const input = document.getElementById('button') 
+
+function addingEventListener(){
+    input.addEventListener('click', function(){
+    alert('I was clicked!')
+})
 }
